@@ -8,3 +8,7 @@ seaborn
 plotly
 prettytable
 jupyter
+
+# Attrition Risk Advisor app (app.py)
+streamlit
+anthropic
