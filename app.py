@@ -13,6 +13,9 @@ Needs an Anthropic API key (sidebar, or ANTHROPIC_API_KEY env var).
 import os
 import streamlit as st
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()  # read a local .env if present (gitignored) so ANTHROPIC_API_KEY is picked up automatically
 
 MODEL = "claude-sonnet-4-6"
 
